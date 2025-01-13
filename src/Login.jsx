@@ -5,7 +5,7 @@ import UserContext from "./UserContext";
 let Login = (props) => {
   var [email, setEmail] = useState("admin@test.com");
   var [password, setPassword] = useState("Admin123");
-  const env_Var = process.env.REACT_APP_BackendServerUrl;
+  
   let myEmailRef = useRef();
 
   let [dirty, setDirty] = useState({
@@ -118,7 +118,7 @@ let Login = (props) => {
     if (isValid()) {
       try {
         let response = await fetch(
-          `${env_Var}/users?email=${email}&password=${password}`,
+          `http://localhost:5000/users?email=${email}&password=${password}`,
           { method: "GET" }
         );
         if (response.ok) {

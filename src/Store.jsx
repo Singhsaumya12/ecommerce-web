@@ -10,7 +10,7 @@ function Store() {
   let [products, setProducts] = useState([]);
   let [productsToShow, setProductsToShow] = useState([]);
   let [search, setSearch] = useState("");
-  const env_Var = process.env.REACT_APP_BackendServerUrl;
+  
 
   //get user context
   let userContext = useContext(UserContext);
@@ -37,7 +37,7 @@ function Store() {
   
         // Get products from DB
         let productsResponse = await fetch(
-          `${env_Var}/products?productName_like=${search}`,
+          `http://localhost:5000/products?productName_like=${search}`,
           { method: "GET" }
         );
   
@@ -139,7 +139,7 @@ function Store() {
         isPaymentCompleted: false,
       };
 
-      let orderResponse = await fetch(`${env_Var}/orders`, {
+      let orderResponse = await fetch(`http://localhost:5000/orders`, {
         method: "POST",
         body: JSON.stringify(newOrder),
         headers: { "Content-Type": "application/json" },

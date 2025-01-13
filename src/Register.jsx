@@ -46,7 +46,7 @@ let Register = (props) => {
 
   let [message, setMessage] = useState("");
   let userContext = useContext(UserContext);
-  const env_Var = process.env.REACT_APP_BackendServerUrl;
+  
 
 
   const navigate = useNavigate();
@@ -128,7 +128,7 @@ let Register = (props) => {
     validate();
 
     if (isValid()) {
-      let response = await fetch(`${env_Var}/users`, {
+      let response = await fetch(`http://localhost:5000/users`, {
         method: "POST",
         body: JSON.stringify({
           email: state.email,

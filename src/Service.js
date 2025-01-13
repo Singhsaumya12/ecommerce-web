@@ -1,4 +1,4 @@
-const env_Var = process.env.REACT_APP_BackendServerUrl;
+
 
 export const OrdersService = {
     getPreviousOrders: (orders) => {
@@ -15,7 +15,7 @@ export const OrdersService = {
     },
     fetchProducts: async () => {
       try {
-        const response = await fetch(`${env_Var}/products`, {
+        const response = await fetch(`http://localhost:5000/products`, {
           method: "GET",
         });
         if (!response.ok) {
@@ -32,7 +32,7 @@ export const OrdersService = {
   export const BrandsService = {
     fetchBrands: async () => {
       try {
-        const response = await fetch(`${env_Var}/brands`, {
+        const response = await fetch(`http://localhost:5000/brands`, {
           method: "GET",
         });
         if (!response.ok) {
@@ -53,7 +53,7 @@ export const OrdersService = {
   export const CategoriesService = {
     fetchCategories: async () => {
       try {
-        const response = await fetch(`${env_Var}/categories`, {
+        const response = await fetch(`http://localhost:5000/categories`, {
           method: "GET",
         });
         if (!response.ok) {
