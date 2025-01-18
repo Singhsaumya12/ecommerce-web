@@ -1,0 +1,363 @@
+{
+  "brands": [
+    {
+      "id": "1",
+      "brandName": "Apple"
+    },
+    {
+      "id": "2",
+      "brandName": "Sony"
+    },
+    {
+      "id": "3",
+      "brandName": "Samsung"
+    },
+    {
+      "id": "4",
+      "brandName": "Carrier"
+    },
+    {
+      "id": "5",
+      "brandName": "Dell"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "categoryName": "Mobile"
+    },
+    {
+      "id": "2",
+      "categoryName": "Electronics"
+    },
+    {
+      "id": "3",
+      "categoryName": "Appliances"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "productName": "Apple iPhone",
+      "price": 8900,
+      "brandId": 1,
+      "categoryId": 1,
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "productName": "Apple iPad Pro",
+      "price": 12400,
+      "brandId": 1,
+      "categoryId": 2,
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "productName": "Sony Camera",
+      "price": 4500,
+      "brandId": 2,
+      "categoryId": 2,
+      "rating": 4
+    },
+    {
+      "id": "4",
+      "productName": "Sony 5.1 Home Theatre",
+      "price": 4500,
+      "brandId": 2,
+      "categoryId": 2,
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "productName": "Carrier 2 Ton Air Conditioner",
+      "price": 7780,
+      "brandId": 4,
+      "categoryId": 3,
+      "rating": 3
+    },
+    {
+      "id": "6",
+      "productName": "Dell Monitor",
+      "price": 880,
+      "brandId": 5,
+      "categoryId": 2,
+      "rating": 4
+    },
+    {
+      "id": "7",
+      "productName": "Sony Mobile Phone",
+      "price": 4848,
+      "brandId": 2,
+      "categoryId": 1,
+      "rating": 2
+    },
+    {
+      "id": "8",
+      "productName": "Samsung Mobile Phone",
+      "price": 2540,
+      "brandId": 3,
+      "categoryId": 1,
+      "rating": 2
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "scott@test.com",
+      "password": "Scott123",
+      "fullName": "Scott",
+      "dateOfBirth": "2000-12-15",
+      "gender": "male",
+      "country": "UK",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "413c",
+      "email": "jordan@gmaol.com",
+      "password": "Khushi@3195",
+      "fullName": "Jordan",
+      "dateOfBirth": "2024-12-12",
+      "gender": "male",
+      "country": "1",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "0041",
+      "email": "jordan12@gmail.com",
+      "password": "Stars31@",
+      "fullName": "Jordan wick",
+      "dateOfBirth": "2024-12-11",
+      "gender": "male",
+      "country": "2",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "f0b6",
+      "email": "thomas123@gmail.com",
+      "password": "Thomas123@",
+      "fullName": "Thomas",
+      "dateOfBirth": "2020-01-27",
+      "gender": "male",
+      "country": "3",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "email": "admin@test.com",
+      "password": "Admin123",
+      "fullName": "Admin",
+      "dateOfBirth": "2000-12-31",
+      "gender": "male",
+      "country": "1",
+      "receiveNewsLetters": true,
+      "id": "4",
+      "role": "admin"
+    },
+    {
+      "id": "8629",
+      "email": "jhon12@gmail.com",
+      "password": "Jhon1234",
+      "fullName": "jhon",
+      "dateOfBirth": "2024-12-11",
+      "gender": "male",
+      "country": "4",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "2a85",
+      "email": "jhone@gmail.com",
+      "password": "1234Jhone",
+      "fullName": "Jhone",
+      "dateOfBirth": "2024-10-29",
+      "gender": "male",
+      "country": "4",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "bb8f",
+      "email": "sparx@gmail.com",
+      "password": "Sparx123",
+      "fullName": "Sparx",
+      "dateOfBirth": "2024-09-10",
+      "gender": "male",
+      "country": "5",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "e167",
+      "email": "park12@gmail.com",
+      "password": "Park123",
+      "fullName": "Park",
+      "dateOfBirth": "2021-02-03",
+      "gender": "male",
+      "country": "1",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "7d73",
+      "email": "jordan6@gmail.com",
+      "password": "Stars31@r",
+      "fullName": "sss",
+      "dateOfBirth": "2024-06-03",
+      "gender": "male",
+      "country": "1",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "2215",
+      "email": "ss@gmail.com",
+      "password": "starts12Wf",
+      "fullName": "dashh",
+      "dateOfBirth": "2025-01-08",
+      "gender": "male",
+      "country": "6",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "51e3",
+      "email": "test@gmail.com",
+      "password": "Test13",
+      "fullName": "TESTT",
+      "dateOfBirth": "2025-01-09",
+      "gender": "male",
+      "country": "5",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "id": "e904",
+      "email": "siya@gmail.com",
+      "password": "Siya2A",
+      "fullName": "siya",
+      "dateOfBirth": "2023-01-02",
+      "gender": "female",
+      "country": "1",
+      "receiveNewsLetters": true,
+      "role": "user"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "productId": 1,
+      "userId": 1,
+      "quantity": 2,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "3",
+      "productId": 4,
+      "userId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "f4b0",
+      "productId": "2",
+      "userId": "f0b6",
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "9678",
+      "productId": "1",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "fc42",
+      "productId": "1",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "0036",
+      "productId": "1",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "243a",
+      "productId": "1",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "1874",
+      "productId": "1",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "2ec7",
+      "productId": "2",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "8e9e",
+      "productId": "4",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "d1bb",
+      "productId": "1",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "24b8",
+      "productId": "1",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "849a",
+      "productId": "1",
+      "userId": null,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "f632",
+      "productId": "1",
+      "userId": "f0b6",
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "ad06",
+      "productId": "6",
+      "userId": "f0b6",
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": "2c37",
+      "userId": "f0b6",
+      "productId": "2",
+      "quantity": 1,
+      "isPaymentCompleted": false
+    }
+  ]
+}
